@@ -1,0 +1,30 @@
+:root{
+    --bg: #FFFFFF;
+    --text: #000000;
+    --primColor: whitesmoke;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+a{ 
+    color: inherit;
+    text-decoration: none;
+}
+
+.container{ 
+    background-color: #9fc0dd;
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

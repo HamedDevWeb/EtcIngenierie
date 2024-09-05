@@ -1,0 +1,20 @@
+.container{
+    background-color: #2175BF;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+    background-color: #22B2CB;
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--primColor);
+}
