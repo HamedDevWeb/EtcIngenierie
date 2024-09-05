@@ -11,10 +11,10 @@
 
 .logo{
     color: black;
-    font-size: 21px;
+    font-size: 19px;
     font-weight: bold;
-    background-color: #22B2CB;
-    padding: 10px;
-    border-radius: 10px;
+    background-color: var(--secColor);
+    padding: 20px;
+    border-radius: 30px;
     color: var(--primColor);
 }
