@@ -1,0 +1,15 @@
+.container{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #2175BF;
+    color: rgb(202, 198, 198);
+    padding: 20px;
+}
+
+.logo{
+   font-weight: bold;
+}
