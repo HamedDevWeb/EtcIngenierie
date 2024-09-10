@@ -1,12 +1,10 @@
 import Link from "next/link.js"
 import Links from "./links/Links.jsx"
-import styles from "./navbar.module.css"
-
 
 const Navbar = () => {
   return (
-    <div className={styles.container}>
-        <Link href="/" className={styles.logo}>ETC | INGENIEURIE</Link>
+    <div className="bg-blue-800 w-full px-10 h-24 flex items-center justify-between">
+        <Link href="/" className="text-white bg-secColor font-bold text-lg px-5 py-5 rounded-full">ETC | INGENIEURIE</Link>
         <div>
             <Links />
         </div>
