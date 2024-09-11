@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "14.2.8",
+    "next-video": "^1.1.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.8"
+    "tailwind": "^4.0.0"
   },
   "devDependencies": {
     "eslint": "^8",
