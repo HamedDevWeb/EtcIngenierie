@@ -23,7 +23,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang='fr'>
       <head>
-        <script src="https://cdn.tailwindcss.com"></script>
+        
+        <script src="https://cdn.tailwindcss.com"></script>;
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <div className="bg-blue-300 w-full min-h-screen mx-auto flex flex-col justify-between">
