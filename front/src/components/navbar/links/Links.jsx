@@ -30,7 +30,7 @@ const Links = () => {
     ]
 
     return (
-        <div className="flex items-center gap-8 uppercase text-primary">
+        <div className="flex text-xs items-center gap-8 uppercase text-primary">
             {
                 links.map((link => (
                     <NavLink item={link} key={link.title} />
